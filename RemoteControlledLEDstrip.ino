@@ -1,5 +1,9 @@
 #include <Adafruit_NeoPixel.h>
 
+//This code allows any remote using standard protocols to control the strip
+//Every time a signal is recieved, the strip will increment its current state. Every other state is an "off" state
+//Its a terrible terrible system but I couldn't get the reciever to consistently accuractely decote a signal.
+
 #include <IRremote.h>
 #include <IRremoteInt.h>
 
